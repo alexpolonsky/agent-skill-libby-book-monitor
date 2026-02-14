@@ -1,0 +1,12 @@
+# Data (generated at runtime)
+data/
+watchlist*.json
+config.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
