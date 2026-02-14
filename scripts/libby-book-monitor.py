@@ -56,7 +56,7 @@ def load_config(data_dir):
         default_config = {
             "default_library": "telaviv",
             "libraries": {
-                "telaviv": "Beit Ariela (Tel Aviv)",
+                "telaviv": "Israel Digital",
             },
         }
         with open(config_path, "w", encoding="utf-8") as f:

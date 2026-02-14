@@ -89,7 +89,7 @@ Your library's OverDrive code is the subdomain from its OverDrive site:
 | Library | Code |
 |---------|------|
 | New York Public Library | `nypl` |
-| Beit Ariela (Tel Aviv) | `telaviv` |
+| Israel Digital | `telaviv` |
 | Toronto Public Library | `toronto` |
 | LA Public Library | `lapl` |
 
@@ -152,7 +152,7 @@ A config file is created on first run at `~/.libby-book-monitor/config.json`:
 {
   "default_library": "telaviv",
   "libraries": {
-    "telaviv": "Beit Ariela (Tel Aviv)"
+    "telaviv": "Israel Digital"
   }
 }
 ```

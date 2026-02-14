@@ -71,7 +71,7 @@ python3 {baseDir}/scripts/libby-book-monitor.py --profile bob check --notify
 
 ## Configuration
 
-Default library is `telaviv` (Beit Ariela). Edit `~/.libby-book-monitor/config.json` to change:
+Default library is `telaviv` Israel Digital. Edit `~/.libby-book-monitor/config.json` to change:
 
 ```json
 {
