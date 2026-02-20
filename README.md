@@ -2,8 +2,9 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-purple)
+[![ClawHub](https://img.shields.io/badge/ClawHub-libby--book--monitor-blue)](https://clawhub.ai/skills/libby-book-monitor)
 
-> **[Agent Skills](https://agentskills.io) format** - works with OpenClaw, Claude, Cursor, Codex, and other compatible clients
+> **[Agent Skills](https://agentskills.io) format** - works with OpenClaw, Claude, Cursor, Codex, and other compatible clients | **[ClawHub](https://clawhub.ai/skills/libby-book-monitor)**
 
 Track book availability on [Libby/OverDrive](https://www.overdrive.com/) libraries. Search catalogs, manage a watchlist, and get notified when books are added to your library's collection.
 
@@ -16,6 +17,10 @@ This tool watches for books that aren't in your library yet and tells you the mo
 ## Installation
 
 ```bash
+# ClawHub
+clawdhub install libby-book-monitor
+
+# npx
 npx skills add alexpolonsky/agent-skill-libby-book-monitor
 ```
 
