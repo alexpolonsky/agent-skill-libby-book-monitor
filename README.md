@@ -48,16 +48,22 @@ Requires Python 3.9+ with no external dependencies.
 
 </details>
 
-## Try it
+## What you can ask
 
-Ask your AI assistant:
-> "Watch for 'The Travelling Cat Chronicles' by Hiro Arikawa at my library"
+> "Is 'The Travelling Cat Chronicles' by Hiro Arikawa available at my library yet?"
 
-Or use the CLI directly:
-```bash
-python3 scripts/libby-book-monitor.py search nypl "The Travelling Cat Chronicles"
-python3 scripts/libby-book-monitor.py watch "The Travelling Cat Chronicles" --author "Hiro Arikawa"
-```
+- "Add 'Tomorrow, and Tomorrow, and Tomorrow' to my Libby watchlist"
+- "Which books on my watchlist are now available?"
+- "Check if any book on my list has shown up in the catalog this week"
+- "Search for anything by Kazuo Ishiguro at my library"
+
+## Automation examples
+
+Ask your AI agent to set up recurring checks:
+
+- "Every morning, check my Libby watchlist and tell me if anything new has appeared in the catalog"
+- "Let me know the moment 'The Travelling Cat Chronicles' becomes available at my library"
+- "Check my watchlist once a day and send me a notification if any book is newly available so I can place a hold before the waitlist builds up"
 
 ## Commands
 
