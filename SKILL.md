@@ -1,21 +1,10 @@
 ---
 name: libby-book-monitor
+version: 1.0.0
 description: Track book availability on Libby/OverDrive libraries. Search library catalogues, manage a watchlist, and get notified when books are added. Use for "libby", "check libby", "libby watchlist", "is book on libby", "book available", "overdrive", "library catalogue", "ספרייה", "ספרים".
-license: MIT
-compatibility: Requires Python 3.9+ and internet access
-metadata:
-  author: Alex Polonsky
-  github: https://github.com/alexpolonsky
-  version: "1.0.0"
-  keywords: libby, overdrive, books, library, watchlist, catalogue, ebooks, ספרייה
-  openclaw:
-    emoji: "📚"
-    os:
-      - darwin
-      - linux
-    requires:
-      bins:
-        - python3
+author: Alex Polonsky (https://github.com/alexpolonsky)
+homepage: https://github.com/alexpolonsky/agent-skill-libby-book-monitor
+metadata: {"openclaw": {"emoji": "📚", "os": ["darwin", "linux"], "requires": {"bins": ["python3"]}}}
 ---
 
 # Libby/OverDrive Book Monitor
