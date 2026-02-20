@@ -57,6 +57,12 @@ Requires Python 3.9+ with no external dependencies.
 - "Check if any book on my list has shown up in the catalog this week"
 - "Search for anything by Kazuo Ishiguro at my library"
 
+Or use the CLI directly:
+```bash
+python3 scripts/libby-book-monitor.py search nypl "The Travelling Cat Chronicles"
+python3 scripts/libby-book-monitor.py watch "The Travelling Cat Chronicles" --author "Hiro Arikawa"
+```
+
 ## Automation examples
 
 Ask your AI agent to set up recurring checks:
