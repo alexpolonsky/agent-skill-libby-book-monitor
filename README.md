@@ -99,7 +99,8 @@ Ask your AI agent to set up recurring checks:
 
 </details>
 
-## Finding your library code
+<details>
+<summary>Finding your library code</summary>
 
 Your library's OverDrive code is the subdomain from its OverDrive site:
 
@@ -109,23 +110,18 @@ Your library's OverDrive code is the subdomain from its OverDrive site:
 | Israel Digital | `telaviv` |
 | Toronto Public Library | `toronto` |
 | LA Public Library | `lapl` |
-
-<details>
-<summary>More libraries</summary>
-
-| Library | URL | Code |
-|---------|-----|------|
-| Brooklyn Public Library | brooklyn.overdrive.com | `brooklyn` |
-| Seattle Public Library | spl.overdrive.com | `spl` |
-| Chicago Public Library | chipublib.overdrive.com | `chipublib` |
-| The Libraries Consortium (UK) | tlc.overdrive.com | `tlc` |
-| Minuteman Library Network | minuteman.overdrive.com | `minuteman` |
+| Brooklyn Public Library | `brooklyn` |
+| Seattle Public Library | `spl` |
+| Chicago Public Library | `chipublib` |
+| The Libraries Consortium (UK) | `tlc` |
+| Minuteman Library Network | `minuteman` |
 
 Not sure about your library? Search for it on [overdrive.com/libraries](https://www.overdrive.com/libraries).
 
 </details>
 
-## Automation
+<details>
+<summary>Cron and notifications</summary>
 
 Use `--notify` to only get output when something new appears - perfect for scheduled checks:
 
@@ -142,6 +138,8 @@ Pair with any notification tool (email, ntfy, pushover, etc.):
 ```
 
 With [OpenClaw](https://github.com/openclaw/openclaw), you can manage your watchlist conversationally - just message your agent "add Dune to my Libby watchlist" or "check if any new books appeared on Libby". OpenClaw can also run daily checks automatically and notify you when something new shows up.
+
+</details>
 
 <details>
 <summary>Profiles</summary>
